@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A1E83AE1E147BD100E502BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A1E83AD1E147BD100E502BF /* main.cpp */; };
+		9A1E83B51E147D2A00E502BF /* sample.wav in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9A1E83B41E147D0B00E502BF /* sample.wav */; };
+		9A1E83B71E14832800E502BF /* looperman-l-0987154-0101133-baltesa-blues-harp-loop-groove-120pbm.wav in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9A1E83B61E14832300E502BF /* looperman-l-0987154-0101133-baltesa-blues-harp-loop-groove-120pbm.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9A1E83A81E147BD100E502BF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				9A1E83B71E14832800E502BF /* looperman-l-0987154-0101133-baltesa-blues-harp-loop-groove-120pbm.wav in CopyFiles */,
+				9A1E83B51E147D2A00E502BF /* sample.wav in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9A1E83AA1E147BD100E502BF /* SndChopper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SndChopper; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A1E83AD1E147BD100E502BF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9A1E83B41E147D0B00E502BF /* sample.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = sample.wav; path = SndChopper/sample.wav; sourceTree = "<group>"; };
+		9A1E83B61E14832300E502BF /* looperman-l-0987154-0101133-baltesa-blues-harp-loop-groove-120pbm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "looperman-l-0987154-0101133-baltesa-blues-harp-loop-groove-120pbm.wav"; path = "SndChopper/looperman-l-0987154-0101133-baltesa-blues-harp-loop-groove-120pbm.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A1E83A71E147BD100E502BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A1E83A11E147BD100E502BF = {
+			isa = PBXGroup;
+			children = (
+				9A1E83B61E14832300E502BF /* looperman-l-0987154-0101133-baltesa-blues-harp-loop-groove-120pbm.wav */,
+				9A1E83B41E147D0B00E502BF /* sample.wav */,
+				9A1E83AC1E147BD100E502BF /* SndChopper */,
+				9A1E83AB1E147BD100E502BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A1E83AB1E147BD100E502BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A1E83AA1E147BD100E502BF /* SndChopper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A1E83AC1E147BD100E502BF /* SndChopper */ = {
+			isa = PBXGroup;
+			children = (
+				9A1E83AD1E147BD100E502BF /* main.cpp */,
+			);
+			path = SndChopper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A1E83A91E147BD100E502BF /* SndChopper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A1E83B11E147BD100E502BF /* Build configuration list for PBXNativeTarget "SndChopper" */;
+			buildPhases = (
+				9A1E83A61E147BD100E502BF /* Sources */,
+				9A1E83A71E147BD100E502BF /* Frameworks */,
+				9A1E83A81E147BD100E502BF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SndChopper;
+			productName = SndChopper;
+			productReference = 9A1E83AA1E147BD100E502BF /* SndChopper */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A1E83A21E147BD100E502BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Skibicki III, John (CHI-FCB)";
+				TargetAttributes = {
+					9A1E83A91E147BD100E502BF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9A1E83A51E147BD100E502BF /* Build configuration list for PBXProject "SndChopper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9A1E83A11E147BD100E502BF;
+			productRefGroup = 9A1E83AB1E147BD100E502BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A1E83A91E147BD100E502BF /* SndChopper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A1E83A61E147BD100E502BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A1E83AE1E147BD100E502BF /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9A1E83AF1E147BD100E502BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9A1E83B01E147BD100E502BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9A1E83B21E147BD100E502BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/libsndfile/1.0.26/include/;
+				LIBRARY_SEARCH_PATHS = "/usr/local/Cellar/libsndfile/**";
+				OTHER_LDFLAGS = "-lsndfile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A1E83B31E147BD100E502BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/libsndfile/1.0.26/include/;
+				LIBRARY_SEARCH_PATHS = "/usr/local/Cellar/libsndfile/**";
+				OTHER_LDFLAGS = "-lsndfile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A1E83A51E147BD100E502BF /* Build configuration list for PBXProject "SndChopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A1E83AF1E147BD100E502BF /* Debug */,
+				9A1E83B01E147BD100E502BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A1E83B11E147BD100E502BF /* Build configuration list for PBXNativeTarget "SndChopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A1E83B21E147BD100E502BF /* Debug */,
+				9A1E83B31E147BD100E502BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A1E83A21E147BD100E502BF /* Project object */;
+}
