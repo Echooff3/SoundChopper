@@ -1,5 +1,5 @@
 # SoundChopper
-A little C++ tool that chops up wav files.
+A little C++ tool that chops up wav files. Originally inspired by Tu2 by BamBros [SoftPedia Link](http://www.softpedia.com/get/Multimedia/Audio/Other-AUDIO-Tools/Tu2.shtml)
 
 Uses [Libsndfile](http://brewformulas.org/Libsndfile)
 ```bash
